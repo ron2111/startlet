@@ -1007,7 +1007,7 @@ padding-bottom: -5px;
   margin: 0 15px;
   padding: 5px 0;
   text-align: center;
-  color: #fff;
+    color: #fff;
   transition: 0.3s ease-in-out;
   height: 100%;
 }
@@ -1032,6 +1032,7 @@ padding-bottom: -5px;
 #why-us .card p {
   font-size: 15px;
   color: #d8eafe;
+  text-align: justify;
 }
 #why-us .card .readmore {
   color: #fff;
@@ -1412,6 +1413,20 @@ padding-bottom: -5px;
   color: #fff;
   transition: 0.3s;
   cursor: pointer;
+}
+
+#footer .footer-top .footer-newsletter .counter{
+  border-radius: 20px;
+  font-size: 1.1em!important;
+  text-shadow: 1px 1px 1px rgb(43, 42, 42);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+    box-shadow: 5px 5px 50px rgb(22, 22, 22)
 }
 #footer .footer-top .footer-newsletter input[type=submit]:hover {
   background: #0062cc;
